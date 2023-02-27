@@ -19,11 +19,11 @@ img {
   width: 100%;
   object-fit: cover;
 }
-
 .container {
   width: 80%;
   margin: 0 auto;
 }
+
 
 .button {
   background-color: #0061fe;
@@ -133,6 +133,14 @@ header ul li a:hover {
   margin-top: 200px;
 }
 
+.plans::before {
+  content: '';
+  display: block;
+  height: 80px;
+  margin: -80px 0;
+  visibility: hidden;
+}
+
 .plans .payment {
   margin: 20px 0;
 }
@@ -166,6 +174,9 @@ header ul li a:hover {
 .plans .plan-row .plan-col:last-child {
   width: 100%;
   margin-top: 30px;
+
+  /* DEBUG */
+  height: 200px;
 }
 
 .plan-row .plan-col h5 {
@@ -179,6 +190,18 @@ header ul li a:hover {
 }
 
 /* FIND PARTNER SECTION */
+
+.find-partner {
+  margin-top: 80px;
+}
+
+.find-partner .image {
+  width: 50%;
+}
+
+.find-partner .text-content {
+  width: 50%;
+}
 
 /* PLANS EXPLANATION SECTION */
 
