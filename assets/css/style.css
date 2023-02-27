@@ -11,6 +11,10 @@ body {
   font-size: 14px;
 }
 
+h2 {
+  font-size: 32px;
+}
+
 img {
   width: 100%;
   object-fit: cover;
@@ -84,7 +88,7 @@ header ul li a:hover {
 .jumbotron {
   margin-top: 80px;
   background-color: rgb(138, 214, 244);
-  height: 700px;
+  height: 730px;
 }
 
 .jumbotron .title {
@@ -125,6 +129,20 @@ header ul li a:hover {
 
 
 /* PLANS SECTION */
+.plans {
+  margin-top: 200px;
+}
+
+.plans .payment {
+  margin: 20px 0;
+}
+
+.plans .payment>span {
+  margin-right: 10px;
+}
+
+.plans .payment span:first-child span{color: #0061fe;
+}
 
 /* FIND PARTNER SECTION */
 
