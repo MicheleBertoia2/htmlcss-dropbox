@@ -142,6 +142,40 @@ header ul li a:hover {
 }
 
 .plans .payment span:first-child span{color: #0061fe;
+  padding-right: 5px;
+}
+
+.plans .payment span:last-child span {
+  color: lightslategray;
+  padding-right: 5px;
+}
+
+.plans .plan-row {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.plans .plan-row .plan-col {
+  width: 30%;
+
+  /* DEBUG */
+  height: 500px;
+  background-color: blueviolet;
+}
+
+.plans .plan-row .plan-col:last-child {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.plan-row .plan-col h5 {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid lightgray;
+}
+
+.plan-row .plan-col h5 i {
+  padding-right: 5px;
 }
 
 /* FIND PARTNER SECTION */
