@@ -39,6 +39,7 @@ img {
   color: white;
   padding: 5px 20px;
   text-decoration: none;
+  text-align: center;
   cursor: pointer;
 }
 
@@ -59,6 +60,10 @@ img {
 
 .m-autox {
   margin: 0 auto;
+}
+
+.my-20 {
+  margin: 20px 0;
 }
 
 /* HEADER */
@@ -179,10 +184,7 @@ header ul li a:hover {
 
 .plans .plan-row .plan-col {
   width: 30%;
-
-  /* DEBUG */
-  height: 500px;
-  background-color: blueviolet;
+  border: 1px solid lightgray;
 }
 
 .plans .plan-row .plan-col:last-child {
@@ -195,12 +197,29 @@ header ul li a:hover {
 
 .plan-row .plan-col h5 {
   text-align: center;
-  padding: 15px;
+  padding: 15px 0;
   border-bottom: 1px solid lightgray;
 }
 
 .plan-row .plan-col h5 i {
   padding-right: 5px;
+}
+
+.plan-row .plan-col .content {
+  padding: 20px;
+}
+
+.plan-row .plan-col .content .d-flex {
+  align-items: flex-start;
+}
+
+.plan-col .content .d-flex span {
+  margin-right: 5px;
+}
+
+.plan-col .content .hr {
+  width: 50px;
+  color: lightgrey;
 }
 
 /* FIND PARTNER SECTION */
