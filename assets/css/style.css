@@ -261,11 +261,26 @@ header ul li a:hover {
 
 /* PLANS FEATURE SECTION */
 
-.plan-feature {
-  
-  /* DEBUG */
-  height: 500px;
-  background-color: blue;
+.plan-feature h2 {
+  margin-bottom: 50px;
+}
+
+.plan-feature .cards-container {
+  flex-wrap: wrap;
+}
+
+.plan-feature .card {
+  width: calc(100% / 3);
+  padding-right: 30px;
+}
+
+.plan-feature .card .image {
+  height: 300px;
+  padding: 10px 0;
+}
+
+.plan-feature .card p {
+  line-height: 30px;
 }
 
 /* PARTNER SECTION */
