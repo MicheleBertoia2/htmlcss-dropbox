@@ -448,3 +448,7 @@ footer {
   height: 500px;
   margin-top: 30px;
 }
+
+footer ul {
+  list-style: none;
+}
