@@ -390,17 +390,53 @@ header ul li a:hover {
 
 /* FAQ SECTION */
 
-.faq {
-  
-  
-  /* DEBUG */
-  background-color: brown;
-  height: 600px;
+.faq .q-a {
+  position: relative;
+  border-bottom: 1px solid lightgray;
+}
+
+.faq .q-a:nth-child(2) {
+  border-top: 1px solid lightgray;
 }
 
 .faq .question {
   justify-content: space-between;
 }
+
+.faq .answer p {
+  margin-bottom: 0;
+  display: none;
+  transition: all 1s ease;
+}
+
+.faq .answer .arrow {
+  cursor: pointer;
+}
+
+.faq .answer .arrow i {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.faq .answer .arrow i:last-child {
+  display: none;
+}
+
+.faq .answer .arrow:hover i:last-child {
+  display: block;
+}
+
+.faq .answer .arrow:hover i:nth-child(2) {
+  display: none;
+}
+
+.faq .answer .arrow:hover p {
+  display: block;
+}
+
+
+
 
 /* FOOTER */
 
@@ -410,4 +446,5 @@ footer {
 
   /* DEBUG */
   height: 500px;
+  margin-top: 30px;
 }
