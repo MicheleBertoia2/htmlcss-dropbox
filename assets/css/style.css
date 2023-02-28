@@ -371,6 +371,23 @@ header ul li a:hover {
   width: 100px;
 }
 
+.partners .cta .container {
+  justify-content: space-between;
+  padding: 100px 0;
+  margin-top: 0;
+  color: rgb(98, 2, 79);
+}
+
+.partners .cta .button {
+  background-color: white;
+  color: black;
+  height: 28px;
+}
+
+.partners .cta .button:hover {
+  border: 1px solid black;
+}
+
 /* FAQ SECTION */
 
 .faq {
@@ -379,6 +396,10 @@ header ul li a:hover {
   /* DEBUG */
   background-color: brown;
   height: 600px;
+}
+
+.faq .question {
+  justify-content: space-between;
 }
 
 /* FOOTER */
