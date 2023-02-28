@@ -67,8 +67,44 @@ img {
   margin: 20px 0;
 }
 
+.mtop-50 {
+  margin-top: 50px;
+}
+
 .py-20 {
   padding: 20px 0;
+}
+
+.bg-lightgreen {
+  background-color: lightgreen;
+}
+
+.bg-brown {
+  background-color: rgb(90, 0, 0);
+}
+
+.bg-azure {
+  background-color: rgb(11, 174, 238);
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-redder {
+  background-color: rgba(255, 0, 0, 0.668);
+}
+
+.bg-whale {
+  background-color: rgb(144, 190, 199);
+}
+
+.bg-blue {
+  background-color: rgb(16, 16, 133);
+}
+
+.bg-yellow {
+  background-color: rgb(243, 227, 78);
 }
 
 /* HEADER */
@@ -291,6 +327,40 @@ header ul li a:hover {
   /* DEBUG */
   height: 800px;
   background-color: darkkhaki;
+}
+
+.partners h2 {
+  width: 40%;
+  margin-bottom: 15px;
+}
+
+.partners .partners-grill {
+  width: 30%;
+  flex-wrap: wrap;
+}
+
+.partners .partners-grill .partners-square {
+  width: 50%;
+  aspect-ratio: 1/1;
+
+  /* DEBUG */
+  border: 1px solid black;
+}
+
+.partners .partners-grill .partners-square a {
+  padding: 30px;
+}
+
+.partners-grill .partners-square img {
+  object-fit: contain;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(301deg) brightness(104%) contrast(102%);
+}
+
+.partners .partners-description {
+  width: 40%;
+
+  /* DEBUG */
+  background-color: blue;
 }
 
 /* FAQ SECTION */
