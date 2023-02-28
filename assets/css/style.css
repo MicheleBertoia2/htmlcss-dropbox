@@ -75,6 +75,10 @@ img {
   padding: 20px 0;
 }
 
+.hr {
+  color: lightgrey;
+}
+
 .bg-lightgreen {
   background-color: lightgreen;
 }
@@ -271,7 +275,6 @@ header ul li a:hover {
 
 .plan-col .content .hr {
   width: 50px;
-  color: lightgrey;
 }
 
 /* FIND PARTNER SECTION */
@@ -323,11 +326,8 @@ header ul li a:hover {
 
 .partners {
   margin-top: 50px;
-  
-  /* DEBUG */
-  height: 800px;
-  background-color: darkkhaki;
 }
+
 
 .partners h2 {
   width: 40%;
@@ -335,20 +335,18 @@ header ul li a:hover {
 }
 
 .partners .partners-grill {
-  width: 30%;
+  width: 30vw;
+  height: 30vw;
   flex-wrap: wrap;
 }
 
 .partners .partners-grill .partners-square {
   width: 50%;
-  aspect-ratio: 1/1;
-
-  /* DEBUG */
-  border: 1px solid black;
+  height: 50%;
 }
 
 .partners .partners-grill .partners-square a {
-  padding: 30px;
+  padding: 40px;
 }
 
 .partners-grill .partners-square img {
@@ -357,10 +355,20 @@ header ul li a:hover {
 }
 
 .partners .partners-description {
-  width: 40%;
+  width: 40vw;
+  height: 30vw;
+  padding: 30px;
+  overflow-y: auto;  
+  background-color: rgb(234, 233, 233);
+}
 
-  /* DEBUG */
-  background-color: blue;
+.partners .partners-description .image {
+  width: 30%;
+  object-fit: contain;
+}
+
+.partners .partners-description .hr {
+  width: 100px;
 }
 
 /* FAQ SECTION */
