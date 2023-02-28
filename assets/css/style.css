@@ -26,6 +26,7 @@ p {
 
 img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .container {
@@ -64,6 +65,10 @@ img {
 
 .my-20 {
   margin: 20px 0;
+}
+
+.py-20 {
+  padding: 20px 0;
 }
 
 /* HEADER */
@@ -107,7 +112,11 @@ header ul li a:hover {
 .jumbotron {
   margin-top: 80px;
   background-color: rgb(138, 214, 244);
-  height: 730px;
+}
+
+.jumbotainer {
+  position: relative;
+  top: 92px;
 }
 
 .jumbotron .title {
@@ -190,9 +199,16 @@ header ul li a:hover {
 .plans .plan-row .plan-col:last-child {
   width: 100%;
   margin-top: 30px;
+}
 
-  /* DEBUG */
-  height: 200px;
+.plans .plan-row .plan-col:last-child .d-flex{
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.plan-row .plan-col:last-child .button {
+  width: 40%;
+  height: 30px;
 }
 
 .plan-row .plan-col h5 {
