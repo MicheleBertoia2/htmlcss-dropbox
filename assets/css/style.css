@@ -163,17 +163,17 @@ header nav:last-child ul .dropdown .dropdown-content{
   position: absolute;
   top: 81px;
   left: 0;
-  z-index: 1;
+  z-index: 999;
   background-color: white;
   opacity: 0;
   transition: all 0.5s;
 }
 
-.dropdown:hover {
+header nav:last-child ul .dropdown:hover {
   overflow: visible;
 }
 
-.dropdown:hover .dropdown-content{
+header nav:last-child ul .dropdown:hover .dropdown-content{
   opacity: 1;
 }
 
@@ -480,9 +480,6 @@ header nav:last-child ul .dropdown .dropdown-content{
 footer {
   background-color: black;
   color: white;
-
-  /* DEBUG */
-  height: 500px;
   margin-top: 30px;
 }
 
