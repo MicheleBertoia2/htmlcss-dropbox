@@ -135,11 +135,11 @@ header ul {
 
 header ul li {
   padding: 30px 20px;
-  cursor: pointer;
+  border-bottom: 3px solid transparent;
 }
 
 header nav:first-child ul li:first-child {
-  padding: 27px 20px;
+  padding: 24px 20px;
 }
 
 header ul li:hover {
@@ -150,11 +150,9 @@ header ul li:hover {
 header ul li a {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
-header ul li a:hover {
-  text-decoration: underline;
-}
 
 /* JUMBOTRON */
 
